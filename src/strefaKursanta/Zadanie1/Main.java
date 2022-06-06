@@ -26,14 +26,17 @@ public class Main {
         }
 
         public static float getX() {
+
             return x;
         }
 
         public static float getY() {
+
             return y;
         }
 
         public void setX(float x) {
+
             this.x = x;
         }
 
@@ -42,6 +45,7 @@ public class Main {
         }
 
         public float[] getXY(){
+
             return new float[]{x, y};
         }
         public void setXY(float x, float y) {
@@ -51,6 +55,7 @@ public class Main {
 
         @Override
         public String toString() {
+
             return String.format("(%f, %f)", x, y);
         }
     }
